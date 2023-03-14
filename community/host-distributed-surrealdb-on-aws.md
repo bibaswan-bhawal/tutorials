@@ -33,14 +33,14 @@ SurrealDB VPC:
 - An Internet Gateway to route traffic to your public subnets.
 - Route tables for all your subnets public and private
 
-![diagram showing subnets](/diagram_1.png 'How I set up my subnets')
+![diagram showing subnets](../assets/community/surrealdb-on-aws/diagram_1.png 'How I set up my subnets')
 
 Things to keep in mind:
 
 - Your public subnet route tables should have your internet gateway setup as a target and the destination should be 0.0.0.0/0.
 
-![diagram showing public route table](/diagram_2.png 'How I set up my public route table')
+![diagram showing public route table](../assets/community/surrealdb-on-aws/diagram_2.png 'How I set up my public route table')
 
 - Your private subnet should only have access to your local network.
 
-![diagram showing private route table](/diagram_3.png 'How I set up my private subnet route table')
+![diagram showing private route table](../assets/community/surrealdb-on-aws/diagram_3.png 'How I set up my private subnet route table')
