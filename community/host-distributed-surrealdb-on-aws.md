@@ -41,6 +41,6 @@ Things to keep in mind:
 
 ![diagram showing public route table](../assets/community/surrealdb-on-aws/diagram_2.png 'How I set up my public route table')
 
-- Your private subnet should only have access to your local network.
+- Your private subnets should only have access to your local network. (This is one example but all of them should look like this)
 
 ![diagram showing private route table](../assets/community/surrealdb-on-aws/diagram_3.png 'How I set up my private subnet route table')
